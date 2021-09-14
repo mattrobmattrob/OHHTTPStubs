@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/AliSoftware/OHHTTPStubs.git", :tag => s.version.to_s }
 
-  s.frameworks = 'Foundation', 'CFNetwork'
+  s.frameworks = 'Foundation', 'CFNetwork', 'UIKit'
 
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
